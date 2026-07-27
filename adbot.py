@@ -1437,7 +1437,7 @@ class AdvancedBot(BaseBot):
             "!party @username عدد - اجرای رقص اجباری برای کاربر\n"
             "!party all عدد - اجرای رقص برای همه\n"
             "!partys @username - توقف رقص اجباری کاربر\n\n"
-            "📩 برای اطلاعات بیشتر به @ad0ri پیام بدید!"
+            "📩 برای اطلاعات بیشتر به @njix پیام بدید!"
         )
         for chunk in [help_text[i:i+200] for i in range(0, len(help_text), 200)]:
             await self.highrise.chat(chunk)
