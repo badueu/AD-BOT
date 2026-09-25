@@ -2714,7 +2714,7 @@ async def main():
     
     logger.info("تلاش برای بارگذاری متغیرهای محیطی...")
     room_id = os.getenv("ROOM_ID", "6a2d39afaaf596f50c350fa7")
-    api_token = os.getenv("API_TOKEN", "82110fdf62217bb0e5151d1bf9154ce60cd83c8be897239ebec11d408403fb0e")
+    api_token = os.getenv("API_TOKEN", "5349cb727ef0f501c5ce5f7da95d03386f79c09c3ef1baac3345fccb8ea9130b")
     
     if not room_id or not api_token:
         logger.error("ROOM_ID یا API_TOKEN تنظیم نشده‌اند.")
